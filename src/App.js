@@ -6,7 +6,7 @@ import Formations from './components/Formations';
 import Projets from "./components/Projets";
 import Experiences from "./components/Experiences";
 import { Card } from 'primereact/card';
-
+import Certifications from "./components/certifications";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
@@ -50,6 +50,11 @@ function App() {
                 Projets
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/certifications" className="nav-link">
+                Certifications
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className="container mt-4">
@@ -58,6 +63,7 @@ function App() {
             <Route path="/formations" element={<Formations />} />
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/project" element={<Projets />} />
+            <Route path="/certifications" element={<Certifications />} />
           </Routes>
           <MDBFooter className='bg-light text-center text-white'>
       <MDBContainer className='p-4 pb-0'>

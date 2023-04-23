@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import pic from"../assets/pic.png";
 
 function ProjectDetail() {
 
@@ -15,6 +16,7 @@ function ProjectDetail() {
       Link:"https://github.com/Saad-Elbahi/Emsi_Management_System.git"
     },
     {
+      logo: {pic},
       title: "GAINAIR Website",
       description: "using php with Mysql.",
       Link:"https://github.com/Saad-Elbahi/GAINAIR.git"
