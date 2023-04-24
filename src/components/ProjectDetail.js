@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import pic from"../assets/pic.png";
 
 function ProjectDetail() {
 
@@ -7,19 +6,18 @@ function ProjectDetail() {
     {
       title: "hearth-disease-prediction ",
       description: "Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.",
-      Link:"https://github.com/Saad-Elbahi/hearth-disease-prediction.git"
+      Link: "https://github.com/Saad-Elbahi/hearth-disease-prediction.git"
 
     },
     {
       title: "Emsi Salary Management",
       description: "using C# with Framework Guna.",
-      Link:"https://github.com/Saad-Elbahi/Emsi_Management_System.git"
+      Link: "https://github.com/Saad-Elbahi/Emsi_Management_System.git"
     },
     {
-      logo: {pic},
       title: "GAINAIR Website",
       description: "using php with Mysql.",
-      Link:"https://github.com/Saad-Elbahi/GAINAIR.git"
+      Link: "https://github.com/Saad-Elbahi/GAINAIR.git"
     }
   ];
 
